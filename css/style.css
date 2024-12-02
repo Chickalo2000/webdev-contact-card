@@ -1,15 +1,18 @@
-.flex-container {
-    display: flex;
-    background-color: crimson;
-}
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
+
 .IMG_1018 {
     display: block;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto; 
+    border: 5px solid #eb15bd; 
+}
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+.Name {
+    border-color: aqua#152aeb;  
+    border-style: groove;
+    text-align: center;
 }
