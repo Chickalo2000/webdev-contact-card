@@ -1,18 +1,32 @@
-
-@media (max-width: 500px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-}
+@media (min-width: 500px) {
 .Name {
     border-color: aqua#152aeb;  
     border-style: groove;
     text-align: center;
 }
+
+.Content {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .IMG_1018 {
     display: block;
     margin-left: auto;
     margin-right: auto; 
     border: 5px solid #eb15bd;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid blue
+}
+
+.Company {
+    text-align: center;
+    justify-content: center;
+}
+}
+
