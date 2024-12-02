@@ -1,6 +1,5 @@
 
 @media (max-width: 500px) {
-    /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
     }
