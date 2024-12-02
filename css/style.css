@@ -28,6 +28,43 @@
 .Company {
     text-align: center;
     justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: #5f0750;
 }
 }
 
+@media (min-width: 150px) {
+    .Name {
+        border-color: aqua#152aeb;  
+        border-style: groove;
+        text-align: center;
+    }
+    
+    .Content {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .IMG_1018 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        border: 5px solid #eb15bd;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 10px solid blue
+    }
+    
+    .Company {
+        text-align: center;
+        justify-content: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: xx-large;
+        color: #5f0750;  
+}    
+}
