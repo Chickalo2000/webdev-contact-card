@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -9,4 +9,10 @@
     border-color: aqua#152aeb;  
     border-style: groove;
     text-align: center;
+}
+.IMG_1018 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 5px solid #eb15bd;
 }
