@@ -1,10 +1,4 @@
 
-.IMG_1018 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    border: 5px solid #eb15bd; 
-}
 @media (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
